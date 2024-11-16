@@ -1,1 +1,58 @@
 /* your code */
+table{
+	
+	border: 1px solid black
+	
+}
+thead {
+            background-color: #333;
+            color: white;
+        }
+
+ th {
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+tbody tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+ td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+            font-size: 1em;
+        }
+caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+.name{
+	background-color: wheat;
+	
+}
+.kills{
+	background-color: red;
+	
+}
+.save{
+	background-color: greenyellow;
+}
+
+.death{
+	color:white
+}
+
+.revive{
+	background-color: yellow
+}
+.win{
+	background-color: indianred
+}
